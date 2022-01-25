@@ -152,6 +152,7 @@ namespace TicTacToe2._0
                     else
                     {
                         Console.WriteLine("Number already selected, pick another one");
+                        PlayerCommands();
                     }
 
                     break;
@@ -168,6 +169,7 @@ namespace TicTacToe2._0
                     else
                     {
                         Console.WriteLine("Number already selected, pick another one");
+                        PlayerCommands();
                     }
 
                     break;
@@ -184,6 +186,7 @@ namespace TicTacToe2._0
                     else
                     {
                         Console.WriteLine("Number already selected, pick another one");
+                        PlayerCommands();
                     }
 
                     break;
@@ -200,6 +203,7 @@ namespace TicTacToe2._0
                     else
                     {
                         Console.WriteLine("Number already selected, pick another one");
+                        PlayerCommands();
                     }
 
                     break;
@@ -216,6 +220,7 @@ namespace TicTacToe2._0
                     else
                     {
                         Console.WriteLine("Number already selected, pick another one");
+                        PlayerCommands();
                     }
 
                     break;
@@ -232,6 +237,7 @@ namespace TicTacToe2._0
                     else
                     {
                         Console.WriteLine("Number already selected, pick another one");
+                        PlayerCommands();
                     }
 
                     break;
@@ -248,6 +254,7 @@ namespace TicTacToe2._0
                     else
                     {
                         Console.WriteLine("Number already selected, pick another one");
+                        PlayerCommands();
                     }
 
                     break;
@@ -264,6 +271,7 @@ namespace TicTacToe2._0
                     else
                     {
                         Console.WriteLine("Number already selected, pick another one");
+                        PlayerCommands();
                     }
 
                     break;
@@ -280,12 +288,13 @@ namespace TicTacToe2._0
                     else
                     {
                         Console.WriteLine("Number already selected, pick another one");
+                        PlayerCommands();
                     }
 
                     break;
 
                 default:
-                    Console.WriteLine("Please, enter a number");
+                    Console.WriteLine("Please, enter another number");
                     choice = 0;
                     PlayerCommands();
                     break;
